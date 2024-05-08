@@ -1,5 +1,6 @@
 *{
-    transition: ease-in-out 0.8s;
+    
+    transition: ease-in-out 0.1s;
 }
 @keyframes trans {
     form{

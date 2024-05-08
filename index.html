@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <script src="node_modules/qrcode-generator/qrcode.js"></script>
     <script src="node_modules/qrcode-generator/qrcode_SJIS.js"></script>
-
+    <link rel="stylesheet" href="w3.css">
 </head>
 <body>
-    <strong id="title"></strong>
-    <div id="placeHolder"></div>
+    <div class="w3-black w3-hover-shadow">
+        <strong id="title"></strong>
+    </div>
+    
+    <div class="w3-hover-shadow" id="placeHolder"></div>
+    <a class="w3-btn w3-blue w3-hover-shadow" href="" id="download" download="qrurl.jpeg">Download</a>
 </body>
 <script src="pop.js"></script>
 </html>
