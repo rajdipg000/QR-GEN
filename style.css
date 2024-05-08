@@ -13,3 +13,7 @@
 strong{
     animation: trans 0.3s infinite;
 }
+#placeHolder{
+    padding: 0px;
+    margin: 7px;
+}
