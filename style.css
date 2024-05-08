@@ -17,3 +17,9 @@ strong{
     padding: 0px;
     margin: 7px;
 }
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,17 @@
     <script src="node_modules/qrcode-generator/qrcode_SJIS.js"></script>
     <link rel="stylesheet" href="w3.css">
 </head>
+
 <body>
-    <div class="w3-black w3-hover-shadow">
+    <div class="w3-purple w3-hover-shadow" style="padding: 15px;">
         <strong id="title"></strong>
     </div>
-    
+
     <div class="w3-hover-shadow" id="placeHolder"></div>
-    <a class="w3-btn w3-blue w3-hover-shadow" href="" id="download" download="qrurl.jpeg">Download</a>
+    <div class="btn">
+        <a class="w3-btn w3-blue w3-hover-shadow w3-hover-red" href="" id="download" download="qrurl.jpeg">Download</a>
+    </div>
 </body>
 <script src="pop.js"></script>
+
 </html>
