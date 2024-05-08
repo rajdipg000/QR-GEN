@@ -1,0 +1,14 @@
+*{
+    transition: ease-in-out 0.8s;
+}
+@keyframes trans {
+    form{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+strong{
+    animation: trans 0.3s infinite;
+}
